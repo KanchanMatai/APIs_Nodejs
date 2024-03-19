@@ -171,10 +171,11 @@ const transporter = nodemailer.createTransport({
   secure: false, // true for 465, false for other ports
   auth: {
     user: 'mataikanchan@gmail.com',
-    pass: 'oetl favl fyni zmzy',
+    pass: 'ialm sxfe cqig auhm',
   },
 });
-
+// ialm sxfe cqig auhm
+// oetl favl fyni zmzy
 router.post('/forget-password', async (req, res) => {
   const { email } = req.body;
 

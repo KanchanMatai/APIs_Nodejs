@@ -175,7 +175,7 @@ router.put(
 //    //SearchAndSort?sort=desc
 //    //SearchAndSort?title=Jeans&sort=asc
 //    //SearchAndSort?title=Jeans&sort=desc
-
+// route:http://localhost:4000/api/notes/SearchAndSort?title=jeans&sort=desc
 router.get("/SearchAndSort", fetchuser, async (req, res) => {
   try {
     // Extract the title and sort parameters from the query string
